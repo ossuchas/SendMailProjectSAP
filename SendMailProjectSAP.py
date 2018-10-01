@@ -113,9 +113,9 @@ print("<<< Generate Data to Excel File Finish >>>")
 
 print("<<< Send Mail Start>>>")
 sender = 'SysMail@apthai.com'
-# receivers = ['project_code@apthai.com','sutthikarn_c@apthai.com','tanonchai@apthai.com','suchat_s@apthai.com']
+receivers = ['project_code@apthai.com','sutthikarn_c@apthai.com','tanonchai@apthai.com','suchat_s@apthai.com']
 #receivers = ['tanonchai@apthai.com','suchat_s@apthai.com']
-receivers = ['suchat_s@apthai.com']
+#receivers = ['suchat_s@apthai.com']
 
 #subject = "Send mail Test SMTP From [" + socket.gethostname() + "]"
 subject = "[CRM] Project Code Mapping SAP"
